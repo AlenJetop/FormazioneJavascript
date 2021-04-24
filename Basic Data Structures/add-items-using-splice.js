@@ -1,0 +1,9 @@
+function htmlColorNames(arr) {
+  // Only change code below this line
+  let last = arr.splice(2);
+  arr = ['DarkSalmon', 'BlanchedAlmond', ...last];
+  // Only change code above this line
+  return arr;
+}
+
+console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
